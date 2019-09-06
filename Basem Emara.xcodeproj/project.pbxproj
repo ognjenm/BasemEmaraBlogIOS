@@ -24,12 +24,12 @@
 		8B1DC0E920B1AFE1009FBBBD /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1DC0E820B1AFE1009FBBBD /* NotificationCenter.framework */; };
 		8B1DC0EC20B1AFE1009FBBBD /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1DC0EB20B1AFE1009FBBBD /* TodayViewController.swift */; };
 		8B1DC0EF20B1AFE1009FBBBD /* Today.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1DC0ED20B1AFE1009FBBBD /* Today.storyboard */; };
-		8B1DC0F320B1AFE1009FBBBD /* Today Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B1DC0E620B1AFE1009FBBBD /* Today Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8B1DC0F320B1AFE1009FBBBD /* MNE Magazin Today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B1DC0E620B1AFE1009FBBBD /* MNE Magazin Today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8B1DC0FE20B1B0BF009FBBBD /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1DC0FD20B1B0BF009FBBBD /* UserNotifications.framework */; };
 		8B1DC10020B1B0BF009FBBBD /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B1DC0FF20B1B0BF009FBBBD /* UserNotificationsUI.framework */; };
 		8B1DC10320B1B0BF009FBBBD /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1DC10220B1B0BF009FBBBD /* NotificationViewController.swift */; };
 		8B1DC10620B1B0BF009FBBBD /* Notification.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B1DC10420B1B0BF009FBBBD /* Notification.storyboard */; };
-		8B1DC10A20B1B0BF009FBBBD /* Post Notification Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B1DC0FC20B1B0BF009FBBBD /* Post Notification Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8B1DC10A20B1B0BF009FBBBD /* MNE Magazin Post Notification.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8B1DC0FC20B1B0BF009FBBBD /* MNE Magazin Post Notification.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		8B21359F217CDAA200E63F21 /* TodayInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B21359E217CDAA200E63F21 /* TodayInteractor.swift */; };
 		8B2135A1217CDABE00E63F21 /* TodayPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2135A0217CDABE00E63F21 /* TodayPresenter.swift */; };
 		8B2135A4217CDAE800E63F21 /* TodayInterfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2135A3217CDAE800E63F21 /* TodayInterfaces.swift */; };
@@ -203,8 +203,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				8B1DC0F320B1AFE1009FBBBD /* Today Extension.appex in Embed App Extensions */,
-				8B1DC10A20B1B0BF009FBBBD /* Post Notification Extension.appex in Embed App Extensions */,
+				8B1DC0F320B1AFE1009FBBBD /* MNE Magazin Today.appex in Embed App Extensions */,
+				8B1DC10A20B1B0BF009FBBBD /* MNE Magazin Post Notification.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -233,17 +233,17 @@
 		8B0D644F20BEB0FC0046056F /* Basem_Emara_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basem_Emara_iOSTests.swift; sourceTree = "<group>"; };
 		8B0D645120BEB0FC0046056F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8B1180DC21570AB50071315B /* DarkTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
-		8B1DC0CB20B1AE0E009FBBBD /* Basem Emara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Basem Emara.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1DC0CB20B1AE0E009FBBBD /* MNE Magazin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MNE Magazin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1DC0CE20B1AE0E009FBBBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B1DC0D720B1AE10009FBBBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B1DC0DA20B1AE10009FBBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B1DC0DC20B1AE10009FBBBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B1DC0E620B1AFE1009FBBBD /* Today Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Today Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1DC0E620B1AFE1009FBBBD /* MNE Magazin Today.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MNE Magazin Today.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1DC0E820B1AFE1009FBBBD /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
 		8B1DC0EB20B1AFE1009FBBBD /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		8B1DC0EE20B1AFE1009FBBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Today.storyboard; sourceTree = "<group>"; };
 		8B1DC0F020B1AFE1009FBBBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B1DC0FC20B1B0BF009FBBBD /* Post Notification Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Post Notification Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B1DC0FC20B1B0BF009FBBBD /* MNE Magazin Post Notification.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "MNE Magazin Post Notification.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B1DC0FD20B1B0BF009FBBBD /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		8B1DC0FF20B1B0BF009FBBBD /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		8B1DC10220B1B0BF009FBBBD /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
@@ -483,9 +483,9 @@
 		8B1DC0CC20B1AE0E009FBBBD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8B1DC0CB20B1AE0E009FBBBD /* Basem Emara.app */,
-				8B1DC0E620B1AFE1009FBBBD /* Today Extension.appex */,
-				8B1DC0FC20B1B0BF009FBBBD /* Post Notification Extension.appex */,
+				8B1DC0CB20B1AE0E009FBBBD /* MNE Magazin.app */,
+				8B1DC0E620B1AFE1009FBBBD /* MNE Magazin Today.appex */,
+				8B1DC0FC20B1B0BF009FBBBD /* MNE Magazin Post Notification.appex */,
 				8B0D644D20BEB0FB0046056F /* Basem Emara iOSTests.xctest */,
 			);
 			name = Products;
@@ -936,7 +936,7 @@
 			);
 			name = "Basem Emara";
 			productName = "Basem Emara";
-			productReference = 8B1DC0CB20B1AE0E009FBBBD /* Basem Emara.app */;
+			productReference = 8B1DC0CB20B1AE0E009FBBBD /* MNE Magazin.app */;
 			productType = "com.apple.product-type.application";
 		};
 		8B1DC0E520B1AFE1009FBBBD /* Today Extension */ = {
@@ -953,7 +953,7 @@
 			);
 			name = "Today Extension";
 			productName = "Today Extension";
-			productReference = 8B1DC0E620B1AFE1009FBBBD /* Today Extension.appex */;
+			productReference = 8B1DC0E620B1AFE1009FBBBD /* MNE Magazin Today.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		8B1DC0FB20B1B0BF009FBBBD /* Post Notification Extension */ = {
@@ -970,7 +970,7 @@
 			);
 			name = "Post Notification Extension";
 			productName = "Post Notification Extension";
-			productReference = 8B1DC0FC20B1B0BF009FBBBD /* Post Notification Extension.appex */;
+			productReference = 8B1DC0FC20B1B0BF009FBBBD /* MNE Magazin Post Notification.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -1566,7 +1566,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.zamzam.Basem-Emara";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MNE Magazin";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1592,7 +1592,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.zamzam.Basem-Emara";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MNE Magazin";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1617,7 +1617,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "-DWIDGET_EXT";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.zamzam.Basem-Emara.Today-Extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MNE Magazin Today";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1643,7 +1643,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "-DWIDGET_EXT";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.zamzam.Basem-Emara.Today-Extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MNE Magazin Today";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1669,7 +1669,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "-DWIDGET_EXT";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.zamzam.Basem-Emara.Post-Notification-Extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MNE Magazin Post Notification";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1695,7 +1695,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "-DWIDGET_EXT";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.zamzam.Basem-Emara.Post-Notification-Extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MNE Magazin Post Notification";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1782,7 +1782,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "io.zamzam.Basem-Emara-staging";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MNE Magazin";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1807,7 +1807,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "-DWIDGET_EXT";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.zamzam.Basem-Emara-staging.Today-Extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MNE Magazin Today";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1833,7 +1833,7 @@
 				);
 				OTHER_SWIFT_FLAGS = "-DWIDGET_EXT";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.zamzam.Basem-Emara-staging.Post-Notification-Extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "MNE Magazin Post Notification";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

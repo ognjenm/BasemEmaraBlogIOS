@@ -36,11 +36,11 @@ class AppConfigurator: CoreConfigurator {
                 let string: String
                 switch environment {
                 case .development:
-                    string = "https://staging1.basememara.com"
+                    string = "https://mnemagazin.me"
                 case .staging:
-                    string = "https://staging1.basememara.com"
+                    string = "https://mnemagazin.me"
                 case .production:
-                    string = "https://basememara.com"
+                    string = "https://mnemagazin.me"
                 }
                 
                 guard let url = URL(string: string) else {
@@ -52,15 +52,15 @@ class AppConfigurator: CoreConfigurator {
             baseREST: "wp-json/swiftypress/v5",
             wpREST: "wp-json/wp/v2",
             email: "contact@basememara.com",
-            privacyURL: "https://basememara.com/privacy/?mobileembed=1",
-            disclaimerURL: "https://basememara.com/disclaimer/?mobileembed=1",
+            privacyURL: "https://mnemagazin.me/privacy/?mobileembed=1",
+            disclaimerURL: "https://mnemagazin.me/disclaimer/?mobileembed=1",
             styleSheet: "https://basememara.com/wp-content/themes/metro-pro/style.css",
-            googleAnalyticsID: "UA-60131988-2",
-            featuredCategoryID: 64,
+            googleAnalyticsID: "UA-59508242-1",
+            featuredCategoryID: 170,
             defaultFetchModifiedLimit: 25,
             taxonomies: ["category", "post_tag", "series"],
             postMetaKeys: ["_series_part"],
-            logFileName: "basememara"
+            logFileName: "mnemagazin"
         )
     }
     
